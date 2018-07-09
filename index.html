@@ -18,7 +18,7 @@
 		img{}
 	</style>
 	
-	(function () {
+	function () {
   if (typeof WeixinJSBridge == "object" && typeof WeixinJSBridge.invoke == "function") {
   handleFontSize();
   } else {
@@ -42,7 +42,7 @@ function handleFontSize() {
     });
   });
   }
-})();
+};
 </head>
 
 <body>
